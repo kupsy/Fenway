@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Freeway</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item-one">
+            <img src="C:\Users\Kupsy\Desktop\codewit\Assignment\Freeway LTD\Crystal_Project_Personal.png">
+        </div>
+        <div class="item-two">
+            <form  id="login-form" onsubmit="submitFunc(event)">
+                
+                <h3 id="main-heading"> Admin Login</h1>
+                <p id="secondary-heading" class="light-text"></p>
+                <input type="text" name="fullname" id="email-input" class="input" placeholder="Enter Name">
+                <input type="text" name="Employee id" id="user" class="input" placeholder="Enter ID">
+                <input type="password" name="pass" id="pass" class="input" placeholder="Password">
+
+                <label for="branch"><b>Select Branch:</b></label>
+                <select name="branch" id="branch">
+                  <option>Select branch</option>
+                  <option>Dubai</option>
+                  <option>Morocco</option>
+                  <option>Niger</option>
+                  <option>Ghana</option>
+                  <option>Nigeria</option>
+                </select>
+
+                <label for="position"><b>Position:</b></label>
+                <select name="position" id="post">
+                  <option value="staff">Staffs</option>
+                  <option value="manager">Manager</option>
+                </select>
+
+                <div id="remember-section">
+                    <input type="checkbox" name="Remember me" id="chkbx">
+                    <p class="light-text">Remember me</p>
+                </div>
+                <a href="#" class="pink-text">Forgot Password?</a>
+                <input type="submit" value="Login" id="login-btn">
+            </form>
+
+
+        
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
